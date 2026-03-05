@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>First Choice Private School</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+height:100vh;
+background:linear-gradient(270deg,#004aad,#00c6ff,#004aad);
+background-size:600% 600%;
+animation:gradientMove 10s ease infinite;
+color:white;
+text-align:center;
+}
+
+@keyframes gradientMove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+header{
+padding:40px;
+}
+
+header h1{
+font-size:45px;
+animation:glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow{
+from{text-shadow:0 0 10px white;}
+to{text-shadow:0 0 25px cyan;}
+}
+
+nav{
+margin-top:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-size:18px;
+padding:10px 20px;
+border-radius:20px;
+transition:0.3s;
+}
+
+nav a:hover{
+background:white;
+color:#004aad;
+}
+
+.container{
+margin-top:60px;
+padding:20px;
+animation:fadeIn 2s ease;
+}
+
+@keyframes fadeIn{
+from{opacity:0; transform:translateY(30px);}
+to{opacity:1; transform:translateY(0);}
+}
+
+.card{
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(10px);
+border-radius:20px;
+padding:30px;
+margin:20px auto;
+width:80%;
+max-width:700px;
+transition:0.4s;
+}
+
+.card:hover{
+transform:scale(1.05);
+box-shadow:0 0 20px rgba(255,255,255,0.6);
+}
+
+button{
+margin-top:15px;
+padding:12px 25px;
+border:none;
+border-radius:30px;
+background:#00c6ff;
+color:white;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+background:white;
+color:#004aad;
+}
+
+footer{
+margin-top:60px;
+padding:20px;
+font-size:14px;
+opacity:0.8;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>First Choice Private School</h1>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">AI & Robotics</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>About Our School</h2>
+<p>
+First Choice Private School provides quality education and encourages
+innovation and creativity in students.
+</p>
+</div>
+
+<div class="card">
+<h2>AI & Robotics Program</h2>
+<p>
+Our school promotes Artificial Intelligence and Robotics learning to
+prepare students for the future of technology.
+</p>
+<button>Learn More</button>
+</div>
+
+<div class="card">
+<h2>Contact Us</h2>
+<p>Phone Number:</p>
+<h3>+263 0774778902</h3>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 First Choice Private School | AI & Robotics Project</p>
+</footer>
+
+</body>
+  </html>
